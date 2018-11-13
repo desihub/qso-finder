@@ -23,12 +23,12 @@ setup_keywords = dict()
 #
 # THESE SETTINGS NEED TO BE CHANGED FOR EVERY PRODUCT.
 #
-setup_keywords['name'] = 'desitemplate'
-setup_keywords['description'] = 'DESI template package'
+setup_keywords['name'] = 'qsopriority'
+setup_keywords['description'] = 'Package to re-prioritize Ly-alpha targets according to their Fisher-predicted value'
 setup_keywords['author'] = 'DESI Collaboration'
 setup_keywords['author_email'] = 'desi-data@desi.lbl.gov'
 setup_keywords['license'] = 'BSD'
-setup_keywords['url'] = 'https://github.com/desihub/desitemplate'
+setup_keywords['url'] = 'https://github.com/desihub/qso-finder'
 #
 # END OF SETTINGS THAT NEED TO BE CHANGED.
 #
@@ -50,7 +50,7 @@ if os.path.isdir('bin'):
     setup_keywords['scripts'] = [fname for fname in glob.glob(os.path.join('bin', '*'))
         if not os.path.basename(fname).endswith('.rst')]
 setup_keywords['provides'] = [setup_keywords['name']]
-setup_keywords['requires'] = ['Python (>2.7.0)']
+setup_keywords['requires'] = ['Python (>3.5.0)']
 # setup_keywords['install_requires'] = ['Python (>2.7.0)']
 setup_keywords['zip_safe'] = False
 setup_keywords['use_2to3'] = False

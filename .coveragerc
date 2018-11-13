@@ -1,16 +1,16 @@
 [run]
-source = py/desitemplate
+source = py/qsopriority
 omit =
-   py/desitemplate/_version.py
-   py/desitemplate/conftest*
-   py/desitemplate/cython_version*
-   py/desitemplate/setup_package*
-   py/desitemplate/*/setup_package*
-   py/desitemplate/*/*/setup_package*
-   py/desitemplate/sphinx/*
-   py/desitemplate/test/*
-   py/desitemplate/*/test/*
-   py/desitemplate/*/*/test/*
+   py/qsopriority/_version.py
+   py/qsopriority/conftest*
+   py/qsopriority/cython_version*
+   py/qsopriority/setup_package*
+   py/qsopriority/*/setup_package*
+   py/qsopriority/*/*/setup_package*
+   py/qsopriority/sphinx/*
+   py/qsopriority/test/*
+   py/qsopriority/*/test/*
+   py/qsopriority/*/*/test/*
 
 [report]
 exclude_lines =

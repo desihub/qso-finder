@@ -1,11 +1,11 @@
 ========================================
-Welcome to desitemplate's documentation!
+Welcome to qsopriority's documentation!
 ========================================
 
 Introduction
 ============
 
-This is the documentation for desitemplate.
+This is the documentation for qsopriority.
 
 Contents
 ========

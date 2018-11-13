@@ -1,7 +1,7 @@
 # Licensed under a 3-clause BSD style license - see LICENSE.rst
 # -*- coding: utf-8 -*-
 """
-desitemplate.main
+qsopriority.main
 =================
 
 This module contains an example command-line function.
@@ -10,7 +10,6 @@ This module contains an example command-line function.
 from __future__ import (absolute_import, division, print_function,
                         unicode_literals)
 # The line above will help with 2to3 support.
-
 
 def main():
     """Entry-point for command-line scripts.
