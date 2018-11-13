@@ -2,5 +2,6 @@ setuptools
 numpy
 scipy
 astropy
+pyyaml
 git+https://github.com/desihub/desiutil@1.9.13#egg=desiutil
 git+https://github.com/desihub/desitarget@0.22.0#egg=desitarget
