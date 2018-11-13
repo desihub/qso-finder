@@ -52,3 +52,7 @@ LICENSE
 This product includes a 3-clause BSD-style license, the
 standard adopted by DESI.
 
+
+.. image:: https://coveralls.io/repos/github/desihub/qso-finder/badge.svg?branch=master
+:target: https://coveralls.io/github/desihub/qso-finder?branch=master
+
