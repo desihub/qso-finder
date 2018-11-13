@@ -83,7 +83,9 @@ install:
     - if [[ $SETUP_CMD == build_sphinx* ]]; then pip install Sphinx; fi
     - if [[ $SETUP_CMD == 'test --coverage' ]]; then pip install coverage coveralls; fi
     # This step installs desiutil, so we always need it.
-    - pip install -r requirements.txt
+    #- pip install -r requirements.txt
+    - cat requirements.txt | xargs -n 1 -L 1 pip install # hacky way to force desiutil to be installed first
+
 
 script:
     - $MAIN_CMD $SETUP_CMD
