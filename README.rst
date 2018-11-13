@@ -56,3 +56,5 @@ standard adopted by DESI.
 .. image:: https://coveralls.io/repos/github/desihub/qso-finder/badge.svg?branch=master
 :target: https://coveralls.io/github/desihub/qso-finder?branch=master
 
+.. image:: https://travis-ci.org/desihub/qso-finder.svg?branch=master
+    :target: https://travis-ci.org/desihub/qso-finder
