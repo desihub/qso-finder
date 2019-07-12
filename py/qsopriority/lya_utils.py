@@ -13,7 +13,7 @@ def load_weights():
     provided by A. Font-Ribera.
     """
 
-    table = Table.read(resource_filename('qsopriority','../../etc/quasarvalue.txt'), format='ascii')
+    table = Table.read(resource_filename('qsopriority','data/quasarvalue.txt'), format='ascii')
     z_col, r_col, w_col = table.columns[0], table.columns[1], table.columns[2]
 
     z_vec = np.unique(z_col)
